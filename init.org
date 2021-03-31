@@ -1,5 +1,22 @@
 * Literate init.el source
 
+** HowTo
+
+The manual way to take this init.org file and "compile" it to init.el is
+~org-babel-tangle~ (default keybinding is C-c C-v t) which will "tangle"
+the code blocks into init.el
+
+- [ ] But see Lars Tveito's [[https://github.com/larstvei/dot-emacs#about][instruction on how to wire that up to have on save of init.org]]
+
+*** Prior art   
+- [[https://www.youtube.com/watch?v=mFsbpS5R6PI&ab_channel=Lukewh][Emacs - 11 - Clean configs with org-mode]] by lukewh on YouTube 13m
+- https://github.com/alhassy/emacs.d
+  - Very well documented
+  - Says "Updated, pretty, version: https://alhassy.github.io/emacs.d/index.html "
+- Arnaud Legrand [[http://mescal.imag.fr/membres/arnaud.legrand/misc/init.php][Emacs init file written in org-mode]]
+- [[https://cestlaz.github.io/posts/using-emacs-10-org-init/][Using Emacs - 10 - org init files]]
+- Lars Tveito's https://github.com/larstvei/dot-emacs
+  
 ** Old .emacs
 
 #+begin_src emacs-lisp
@@ -482,7 +499,8 @@ The following is as per https://github.com/justbur/emacs-vdiff-magit#magit-integ
 (transient-suffix-put 'magit-dispatch "E" :command 'vdiff-magit)
 
 ;; This flag will default to using ediff for merges.
-;; (setq vdiff-magit-use-ediff-for-merges nil)
+;; JFT 2021-03-30: Might as well learn ediff first then vdiff
+(setq vdiff-magit-use-ediff-for-merges t)
 
 ;; Whether vdiff-magit-dwim runs show variants on hunks.  If non-nil,
 ;; vdiff-magit-show-staged or vdiff-magit-show-unstaged are called based on what
