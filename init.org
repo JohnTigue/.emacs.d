@@ -1,6 +1,6 @@
 * Literate init.el source
 
-** HowTo
+** How To
 
 The manual way to take this init.org file and "compile" it to init.el is
 ~org-babel-tangle~ (default keybinding is C-c C-v t) which will "tangle"
@@ -8,7 +8,7 @@ the code blocks into init.el
 
 - [ ] But see Lars Tveito's [[https://github.com/larstvei/dot-emacs#about][instruction on how to wire that up to have on save of init.org]]
 
-*** Prior art   
+*** Prior art
 - [[https://www.youtube.com/watch?v=mFsbpS5R6PI&ab_channel=Lukewh][Emacs - 11 - Clean configs with org-mode]] by lukewh on YouTube 13m
 - https://github.com/alhassy/emacs.d
   - Very well documented
@@ -16,6 +16,7 @@ the code blocks into init.el
 - Arnaud Legrand [[http://mescal.imag.fr/membres/arnaud.legrand/misc/init.php][Emacs init file written in org-mode]]
 - [[https://cestlaz.github.io/posts/using-emacs-10-org-init/][Using Emacs - 10 - org init files]]
 - Lars Tveito's https://github.com/larstvei/dot-emacs
+- [[https://www.youtube.com/watch?v=pQe1ul51RM0&ab_channel=DistroTube][Want To Rewrite Your Configs In Org-Mode? It's Easy!]] by DistroTube
   
 ** Old .emacs
 
