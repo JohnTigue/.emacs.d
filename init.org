@@ -10,6 +10,7 @@ the code blocks into init.el
 
 *** Prior art
 - [[https://www.youtube.com/watch?v=mFsbpS5R6PI&ab_channel=Lukewh][Emacs - 11 - Clean configs with org-mode]] by lukewh on YouTube 13m
+- [[https://www.youtube.com/watch?v=kkqVTDbfYp4&t=5s&ab_channel=SystemCrafters][Emacs From Scratch #7 - Configure Everything with Org Babel]]
 - https://github.com/alhassy/emacs.d
   - Very well documented
   - Says "Updated, pretty, version: https://alhassy.github.io/emacs.d/index.html "
